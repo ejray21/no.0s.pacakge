@@ -1,5 +1,6 @@
 #' to remove columns that contain only 0s
 #' @param input_matrix, must be matrix
+#' @param , adds sum of each column and removes column where the sum is 0
 #' @return, a matrix with no columns that only contain 0
 #' @export
 

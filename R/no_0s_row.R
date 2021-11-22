@@ -1,5 +1,6 @@
 #' to remove rows that contain only 0s
 #' @param input_matrix, must be matrix
+#' @param , calculates the sum of each row and removes rows that have a sum of 0
 #' @return a matrix, with no rows that only contain 0
 #' @export
 
