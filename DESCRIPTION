@@ -1,0 +1,14 @@
+Package: no.0s.package
+Title: Remove rows or columns that contain only 0
+Version: 0.0.0.9000
+Authors@R: 
+    person("Emily", "Ray", email = "eray8@lsu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = 0000-0003-3968-1109))
+Description: This package removes columns or rows from a matrix that only contain 0s. This package works by summing all numbers or columns in a row or column and removing those rows or columns that have a sum of 0.de
+License: usethis::use_agpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
